@@ -23,17 +23,17 @@ body{
     cursor: url("images/cursor.png"), auto;
 }
 
-@media (min-aspect-ratio: 1/1) {
+@media (max-width:1281px) {
     main{
         background-color: #33abfc;
         display: block;
         overflow: auto;
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 16%;
+        padding-right: 16%;
     }
 }
 
-@media (max-aspect-ratio: 3/2) {
+@media (max-width:600px) {
     main{
         background-color: #33abfc;
         display: block;
